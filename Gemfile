@@ -27,6 +27,7 @@ gem 'bootstrap-sass'
 gem 'devise', '~> 3.5.6'
 gem 'paperclip', '~> 4.2'
 
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
@@ -54,4 +55,5 @@ end
 group :production do
   gem 'pg'
   gem 'rails_12factor'
+  gem 'aws-sdk', '~> 2.2.14'
 end
