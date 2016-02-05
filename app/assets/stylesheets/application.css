@@ -14,3 +14,9 @@
  *= require_self
  *= require 'masonry/transitions'
  */
+
+.btn-primary {
+	color: white;
+	background-color: #c0392b;
+	border-color: #ab3326;
+}
